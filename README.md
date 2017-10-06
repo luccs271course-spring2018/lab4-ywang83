@@ -44,7 +44,7 @@ You will do this interactively using the JShell that comes with Java 9.
 
 1. *Question:* What is the purpose of `this` in the second constructor definition?
 
-1. Create a linked list of nodes containing the strings `"hello"`, `"world"`, `"what"`, and `"up"`. 
+1. Create a linked list of nodes containing the strings `"hello"`, `"<YOUR NAME>"`, `"what"`, and `"up"`. 
 Use as many statements as you want.
 
    Hint: To create a single node, use `new Node<>("abcd")`. 
@@ -83,7 +83,7 @@ Furthermore, can you build structures with branches that look like trees, where 
 
 1. Write the equivalent of `printNode` using an `Iterator` over a `java.util.LinkedList`?
 
-       final List<String> myList = new LinkedList<>(Arrays.asList("hello", "world", "what", "up"));
+       final List<String> myList = new LinkedList<>(Arrays.asList("hello", "<YOUR NAME>", "what", "up"));
        final Iterator i = myList.iterator();
        // TODO while loop using i.hasNext() and i.next()
 
