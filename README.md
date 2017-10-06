@@ -23,6 +23,8 @@ You will do this interactively using the JShell that comes with Java 9.
 
         sudo apt remove -y oracle-java8-*
         sudo apt-get autoremove
+        
+   If you run out of space or have any other kind of trouble, create a new workspace instead.
       
 1. Install Java 9:
 
