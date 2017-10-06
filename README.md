@@ -41,19 +41,21 @@ You will do this interactively using the JShell that comes with Java 9.
          public Node(final E data) { this(data, null); }
        }
 
-1. Question: What is the purpose of `E` in this class definition?
+1. *Question:* What is the purpose of `E` in this class definition?
 
-1. Question: What is the purpose of `this` in the second constructor definition?
+1. *Question:* What is the purpose of `this` in the second constructor definition?
 
 1. Create a linked list of nodes containing the strings `"hello"`, `"world"`, `"what"`, and `"up"`. 
 Use as many statements as you want.
 
-   Hint: to create a single node, use `new Node<>("abcd")`. 
+   Hint: To create a single node, use `new Node<>("abcd")`. 
    The `<>` notation is a placeholder for the specific `E` the system infers for you, in this case, `String`.
+   
+   Hint: It is best to define named variables for your various objects instead of relying on the auto-generated `$...` names.
 
 1. Now create the same list using a single statement.
 
-1. Question: Which way to create the list more clearly conveys the actual structure of the list?
+1. *Question:* Which way to create the list more clearly conveys the actual structure of the list?
 
 1. Define a method for printing the items in a linked list, starting with the head (first) node:
 
@@ -68,6 +70,8 @@ Use `printNode` to verify that the node is gone from the list.
 
 1. Add the node containing `"what"` back but at the very end of the list. 
 Use `printNode` to verify that the node is now in the correct position.
+
+1. Can you create a circular list by making the successor of the list 
 
 
 
