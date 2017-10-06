@@ -58,6 +58,8 @@ Use as many statements as you want.
   
    Hint: Iterate through the list until `curr` becomes `null`.
    
+   Hint: In case your method goes into an infinite loop, you can interrupt execution by pressing Control-c.
+   
 1. Question: What would happen 
 
 # Deliverables and submission
