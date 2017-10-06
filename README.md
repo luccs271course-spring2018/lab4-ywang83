@@ -66,6 +66,9 @@ Use as many statements as you want.
 1. Remove the node containing `"what"` from your list above. 
 Use `printNode` to verify that the node is gone from the list.
 
+1. Add the node containing `"what"` back but at the very end of the list. 
+Use `printNode` to verify that the node is now in the correct position.
+
 
 
 # Deliverables and submission
