@@ -32,11 +32,25 @@ You will do this interactively using the JShell that comes with Java 9.
   
   This is a fairly big download, so it might take a while.
 
-1. Create a generic node class:
+1. Define this generic node class:
 
-      class 
-      
-1. Answer the following questions
+  class Node<E> {
+    public E data;
+    public Node<E> next;
+    public Node(final E data, final Node<E> next) { this.data = data; this.next = next; }
+    public Node(final E data) { this(data, null); }
+  }
+
+1. Create a linked list of nodes containing the strings "hello", "world", "what", and "up". 
+Use as many statements as you want.
+
+1. Now create the same list using a single statement.
+
+1. Define a method for printing the items in a linked list, starting with the head (first) node:
+
+  <E> void printNode(final Node<E> head) { ... }
+  
+
 
 # Deliverables and submission
 
