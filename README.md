@@ -13,7 +13,7 @@ An understanding of the following concepts and techniques:
 - linked lists
 - navigating through linked lists
 - iterators
-- Java asse rtions
+- Java assertions
   
 # Instructions
 
@@ -60,7 +60,8 @@ Use as many statements as you want.
    
    Hint: In case your method goes into an infinite loop, you can interrupt execution by pressing Control-c.
    
-1. Question: What would happen 
+1. Remove the node containing "what" from your list above. 
+Use `printNode` to verify that the node is gone from the list.
 
 # Deliverables and submission
 
