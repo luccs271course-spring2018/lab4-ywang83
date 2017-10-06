@@ -94,13 +94,13 @@ Furthermore, can you build structures with branches that look like trees, where 
 Please submit the following deliverables:
 
 - Individual Sakai submission under "Lab 4":
-  - JShell history showing your work for this lab (gene
-  - Brief description of your collaboration style and summary of your 
+  - gist with JShell history and Written part (see below for details)
+  - brief description of your collaboration style and summary of your 
     individual contributions to this team project
 
 # Grading
 
-- 1 submission of both deliverables as part of a single secret gist - *be sure to submit this gist's URL through Sakai*
+- 1 submission of both deliverables as part of a single secret [gist](https://gist.github.com/) - *be sure to submit this gist's URL through Sakai*
 - 2.5 JShell history (`jshell> /save -history myhistory.jsh`) showing the steps described above (it's OK if errors are included)
 - 1.5 written part
   - 0.2 each for the six questions
