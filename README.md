@@ -13,7 +13,6 @@ An understanding of the following concepts and techniques:
 - linked lists
 - navigating through linked lists
 - iterators
-- Java assertions
   
 # Instructions
 
@@ -71,9 +70,24 @@ Use `printNode` to verify that the node is gone from the list.
 1. Add the node containing `"what"` back but at the very end of the list. 
 Use `printNode` to verify that the node is now in the correct position.
 
-1. Can you create a circular list by making the successor of the list 
+1. Now create a circular list by making the successor of the list refer back to the head of the list.
 
+1. *Question:* What happens if you use the `printNode` method on this circular list?
 
+1. Define an enhanced `printNodeCycle` that works like `printNode` but stops the iteration when it detects a cycle in the list.
+
+1. Invoke `printNodeCycle` on your circular list.
+
+1. *Question:* How would you describe the shape of any noncyclical structure you can build using the `Node` class? 
+Furthermore, can you build structures with branches that look like trees, where a node can have more than one successor or neighbor?
+
+1. Write the equivalent of `printNode` using an `Iterator` over a `java.util.LinkedList`?
+
+       final List<String> myList = new LinkedList<>(Arrays.asList("hello", "world", "what", "up"));
+       final Iterator i = myList.iterator();
+       // TODO while loop using i.hasNext() and i.next()
+
+1. *Question:* Would the same code work for an `ArrayList`?
 
 # Deliverables and submission
 
