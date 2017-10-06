@@ -45,7 +45,7 @@ You will do this interactively using the JShell that comes with Java 9.
 
 1. Question: What is the purpose of `this` in the second constructor definition?
 
-1. Create a linked list of nodes containing the strings "hello", "world", "what", and "up". 
+1. Create a linked list of nodes containing the strings `"hello"`, `"world"`, `"what"`, and `"up"`. 
 Use as many statements as you want.
 
    Hint: to create a single node, use `new Node<>("abcd")`. 
@@ -63,7 +63,7 @@ Use as many statements as you want.
    
    Hint: In case your method invocation (or any other code) goes into an infinite loop, you can interrupt execution by pressing Control-c.
    
-1. Remove the node containing "what" from your list above. 
+1. Remove the node containing `"what"` from your list above. 
 Use `printNode` to verify that the node is gone from the list.
 
 
