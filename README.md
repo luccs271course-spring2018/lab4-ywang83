@@ -30,7 +30,7 @@ You will do this interactively using the JShell that comes with Java 9.
   - Java 9 installation instructions for Ubuntu (applicable to your c9 workspace): http://www.webupd8.org/2015/02/install-oracle-java-9-in-ubuntu-linux.html
   - For Windows and Mac, download and install from here: http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html
   
-  This is a fairly big download, so it might take a while.
+   This is a fairly big download, so it might take a while.
 
 1. Define this generic node class:
 
@@ -41,16 +41,22 @@ You will do this interactively using the JShell that comes with Java 9.
          public Node(final E data) { this(data, null); }
        }
 
+1. Question: What is the purpose of `E` in this class definition?
+
+1. Question: What is the purpose of `this` in the second constructor definition?
+
 1. Create a linked list of nodes containing the strings "hello", "world", "what", and "up". 
 Use as many statements as you want.
 
 1. Now create the same list using a single statement.
 
+1. Question: Which way to create the list more clearly conveys the actual structure of the list?
+
 1. Define a method for printing the items in a linked list, starting with the head (first) node:
 
        <E> void printNode(final Node<E> head) { ... }
   
-
+  
 
 # Deliverables and submission
 
