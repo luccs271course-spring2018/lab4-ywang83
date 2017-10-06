@@ -54,9 +54,11 @@ Use as many statements as you want.
 
 1. Define a method for printing the items in a linked list, starting with the head (first) node:
 
-       <E> void printNode(final Node<E> head) { ... }
+       <E> void printNode(Node<E> curr) { ... }
   
-  
+   Hint: Iterate through the list until `curr` becomes `null`.
+   
+1. Question: What would happen 
 
 # Deliverables and submission
 
