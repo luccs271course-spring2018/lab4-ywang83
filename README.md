@@ -38,6 +38,8 @@ You will do this interactively using the JShell that comes with Java 9.
 
        jshell -R-ea
 
+   If this does not work, double-check your Java 9 installation.
+
 1. Define this generic node class:
 
        class Node<E> {
