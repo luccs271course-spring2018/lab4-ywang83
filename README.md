@@ -22,8 +22,8 @@ You will do this interactively using the JShell that comes with Java 9.
 
 1. If using c9, remove Java 8 from your workspace:
 
-      sudo apt remove -y oracle-java8-*
-      sudo apt-get autoremove
+        sudo apt remove -y oracle-java8-*
+        sudo apt-get autoremove
       
 1. Install Java 9:
 
@@ -34,12 +34,12 @@ You will do this interactively using the JShell that comes with Java 9.
 
 1. Define this generic node class:
 
-  class Node<E> {
-    public E data;
-    public Node<E> next;
-    public Node(final E data, final Node<E> next) { this.data = data; this.next = next; }
-    public Node(final E data) { this(data, null); }
-  }
+       class Node<E> {
+         public E data;
+         public Node<E> next;
+         public Node(final E data, final Node<E> next) { this.data = data; this.next = next; }
+         public Node(final E data) { this(data, null); }
+       }
 
 1. Create a linked list of nodes containing the strings "hello", "world", "what", and "up". 
 Use as many statements as you want.
@@ -48,7 +48,7 @@ Use as many statements as you want.
 
 1. Define a method for printing the items in a linked list, starting with the head (first) node:
 
-  <E> void printNode(final Node<E> head) { ... }
+       <E> void printNode(final Node<E> head) { ... }
   
 
 
