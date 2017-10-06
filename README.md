@@ -31,6 +31,10 @@ You will do this interactively using the JShell that comes with Java 9.
   
    This is a fairly big download, so it might take a while.
 
+1. Start the JShell like so:
+
+       jshell -R-ea
+
 1. Define this generic node class:
 
        class Node<E> {
