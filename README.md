@@ -38,11 +38,17 @@ You will do this interactively using the JShell that comes with Java 9.
          public Node<E> next;
          public Node(final E data, final Node<E> next) { this.data = data; this.next = next; }
          public Node(final E data) { this(data, null); }
+         public String toString() { return "Node(" + data + (next != null ? ", non-null)" : ")"; }
        }
+       
+   Hint: If you make a mistake in a class or method definition, don't worry. 
+   You can just reenter it to replace the erroneous or incomplete definition.
 
 1. *Question:* What is the purpose of `E` in this class definition?
 
 1. *Question:* What is the purpose of `this` in the second constructor definition?
+
+1. *Question:* What is the purpose of `toString` in this class definition?
 
 1. Create a linked list of nodes containing the strings `"hello"`, `"<YOUR NAME>"`, `"what"`, and `"up"`. 
 Use as many statements as you want.
