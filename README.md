@@ -47,7 +47,10 @@ You will do this interactively using the JShell that comes with Java 9.
          public Node<E> next;
          public Node(final E data, final Node<E> next) { this.data = data; this.next = next; }
          public Node(final E data) { this(data, null); }
-         public String toString() { return "Node@" + hashCode() + "(" + data + (next != null ? ", Node@" + next.hashCode() + ")" : ")"); }
+         public String toString() { 
+           return "Node@" + hashCode() + "(" + data + 
+             (next != null ? ", Node@" + next.hashCode() + ")" : ")"); 
+         }
        }
        
    Hint: If you make a mistake in a class or method definition, don't worry. 
