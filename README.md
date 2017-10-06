@@ -48,6 +48,9 @@ You will do this interactively using the JShell that comes with Java 9.
 1. Create a linked list of nodes containing the strings "hello", "world", "what", and "up". 
 Use as many statements as you want.
 
+   Hint: to create a single node, use `new Node<>("abcd")`. 
+   The `<>` notation is a placeholder for the specific `E` the system infers for you, in this case, `String`.
+
 1. Now create the same list using a single statement.
 
 1. Question: Which way to create the list more clearly conveys the actual structure of the list?
@@ -58,10 +61,12 @@ Use as many statements as you want.
   
    Hint: Iterate through the list until `curr` becomes `null`.
    
-   Hint: In case your method goes into an infinite loop, you can interrupt execution by pressing Control-c.
+   Hint: In case your method invocation (or any other code) goes into an infinite loop, you can interrupt execution by pressing Control-c.
    
 1. Remove the node containing "what" from your list above. 
 Use `printNode` to verify that the node is gone from the list.
+
+
 
 # Deliverables and submission
 
