@@ -23,12 +23,13 @@ You will do this interactively using the JShell that comes with Java 9.
 
         sudo apt remove -y oracle-java8-*
         sudo apt-get autoremove
-        
-   If you run out of space or have any other kind of trouble, create a new workspace instead.
-      
+              
 1. Install Java 9:
 
       - Java 9 installation instructions for Ubuntu (applicable to your c9 workspace): http://www.webupd8.org/2015/02/install-oracle-java-9-in-ubuntu-linux.html
+      
+        If you run out of space or have any other kind of trouble, create a new workspace instead.
+      
       - For Windows and Mac, download and install from here: http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html
   
    This is a fairly big download, so it might take a while.
